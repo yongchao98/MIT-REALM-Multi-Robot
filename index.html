@@ -169,7 +169,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <video controls class="center-video" width="100%">
-          <source src="./static/Multi-agent_Video_medium.mp4" type="video/mp4">
+          <source src="./static/images/Multi-agent_Video_medium.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
@@ -182,10 +182,10 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified abstract-content">
           <p>
-           Temporal Logic (TL) can be used to rigorously specify complex high-level specification for systems in many engineering applications. The translation between natural language (NL) and TL has been under-explored due to the lack of dataset and generalizable model across different application domains.
+           A flurry of recent work has demonstrated that pre-trained large language models (LLMs) can be effective task planners for a variety of single-robot tasks. The planning performance of LLMs is significantly improved via prompting techniques, such as in-context learning or re-prompting with state feedback, placing new importance on the token budget for the context window. An under-explored but natural next direction is to investigate LLMs as multi-robot task planners. However, long-horizon, heterogeneous multi-robot planning introduces new challenges of coordination while also pushing up against the limits of context window length. It is therefore critical to find token-efficient LLM planning frameworks that are also able to reason about the complexities of multi-robot coordination.
           </p>
           <p>
-           We propose an accurate and generalizable transformation framework of English instructions from NL to TL, exploring the use of Large Language Models (LLMs) at multiple stages. Our contributions are twofold. First, we develop a <b>framework to create a dataset of NL-TL pairs combining LLMs and human annotation</b>. We publish a <b>dataset with 28K NL-TL pairs</b>. Then, we finetune T5 models on the <b>lifted versions</b> (i.e., the specific Atomic Propositions (AP) are hidden) of the NL and TL. The <b>enhanced generalizability</b> originates from two aspects: 1) Usage of lifted NL-TL characterizes common logical structures, without constraints of specific domains. 2) Application of LLMs in dataset creation largely enhances corpus richness.
+           In this work, we compare the task success rate and token efficiency of four multi-agent communication frameworks (centralized, decentralized, and two hybrid) as applied to four coordination-dependent multi-agent 2D task scenarios for increasing numbers of agents. We find that a hybrid framework achieves better task success rates across all four tasks and scales better to more agents. We further demonstrate the hybrid frameworks in 3D simulations where the vision-to-text problem and dynamical errors are considered.
           </p>
         </div>
       </div>
